@@ -1,4 +1,156 @@
 body{
-    background:blue;
-    color: white
+ background-color: white;
+ color: black
+}
+
+#line1{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+hr{
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+#line1 h4{
+    display: inline;
+    font-weight: 10;
+}
+#line1 img{
+    display: inline;
+    float: right;
+}
+
+#line2{
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+    
+}
+.mohban{
+    width: 48;height: 52;
+    
+    
+}
+ h2{
+    display: inline;
+    padding-left:10px;
+    padding-bottom: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.nav{
+    float:right;
+}
+.nav li{
+    display: inline;
+    cursor: pointer;
+     padding-left: 50px;
+     
+}
+
+#tag1{
+    background-image: url("img/home1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 650px;
+    padding-top: 30px;
+    
+}
+
+#tag1 h1{
+   color: white;
+   text-align: center;
+   font-size: 500%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+}
+#tag1 p{
+    color: white;
+    font-weight:2;
+    font-size: 30px;
+   text-align: center;
+    padding: 15px 10px;
+    margin-top: -10px;
+}
+
+#tag2{
+    background-image: url("img/home2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    padding-top: 19px;
+
+}
+
+#tag2 h1{
+    text-align: center;
+    font-size:300%;
+    color: white;
+    margin-top: 7%;
+
+}
+
+#tag2 p{
+   
+    color: white;
+    font-weight:2;
+    font-size: 20px;
+   text-align: center;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+
+    
+#home3{
+    background-image: url("img/home3.jpg");
+ background-repeat:no-repeat;
+  background-size:400px;
+width: 500px;
+height: 800px;
+}
+ 
+#home4{
+    background-image: url("img/home4.jpg");
+    background-repeat:no-repeat;
+     background-size:400px;
+   width: 500px;
+   height: 800px;
+}
+
+#home4{
+    background-image: url("img/home4.jpg");
+    background-repeat:no-repeat;
+     background-size:400px;
+   width: 500px;
+   height: 800px;
+   
+}
+
+
+
+#home5{
+    background-image: url("img/home5.jpg");
+    background-repeat:no-repeat;
+     background-size: 400px;
+   width: 450px;
+   height: 720px;
+   padding-left: 5px;
+   
+}
+
+
+ 
+#wrapper{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+     column-gap: 0px;
+     padding-left: 5px;
+     padding-right: 5px;
 }
